@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      p {
+        line-height: 1.6;
+      }
+      #demo {
+        font-weight: bold;
+        color: blue;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Project 1</h1>
+    <p>Welcome to my first project!</p>
+    <p>This is a simple HTML page.</p>
+    <p>Feel free to explore and modify it as you like.</p>
+    <p>Have fun coding!</p>
+    <p id="demo"></p>
+  </div>
+    <script>
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+      console.log("Hello Console!");
+      alert("Hello Alert!");
+      var x = 5;  
+      var y = 10;
+      var z = x + y;
+      console.log("The sum of x and y is: " + z);
+      var fruits = ["Apple", "Banana", "Cherry"];
+      for (var i = 0; i < fruits.length; i++) {
+        console.log(fruits[i]);
+      }
+      var person = {firstName: "John", lastName: "Doe", age: 30};
+      console.log(person.firstName + " " + person.lastName + " is " + person.age + " years old.");
+      </script>
+    </body>
+</html>
